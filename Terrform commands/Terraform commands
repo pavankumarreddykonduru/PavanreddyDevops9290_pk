@@ -1,0 +1,15 @@
+Terraform validate
+Terraform fmt
+  Works on currnet directory show out put in canonical format
+Terraform  show -json
+Terraform providers
+Terraform poviders mirror  /root/pk/
+Terraform output
+you can mention specific variables
+
+Terraform plan  - modify state file.
+
+Terraform apply -refresh-only
+Terraform graph
+
+
