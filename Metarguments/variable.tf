@@ -1,3 +1,3 @@
 variable "filename" {
-    defult ="/root/pets.txt"
+    default ="/root/pets.txt"
 }
