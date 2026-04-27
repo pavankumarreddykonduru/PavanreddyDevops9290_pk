@@ -4,3 +4,7 @@ resource "local_file" "pet" {
   for_each = toset(var.filename) #convers list to set #
   content  = "I love my pets!" 
 }
+
+output "pets" {
+  value = local_file.pet
+}
