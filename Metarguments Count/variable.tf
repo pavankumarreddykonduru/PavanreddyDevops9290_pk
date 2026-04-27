@@ -1,4 +1,4 @@
 variable "filename" {
-    default ="/c/Devops/pets.txt"
+    default ="C:\Devops\PavanreddyDevops9290_pk/pets.txt"
 
 }
