@@ -2,6 +2,7 @@ a, b, c = map(int, input().split())
 print(a, b, c)
 
 """ Explanation
+input() → always returns string
 input() → takes input as a string ("5 10 15")
 .split() → splits into ["5", "10", "15"]
 map(int, ...) → converts each to integers [5, 10, 15]
