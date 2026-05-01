@@ -12,7 +12,7 @@ words is a list of strings:
 " " → separator (space)
 .join(words) → combines all list elements into one string
 
-So it becomes:
+So it becomes like this:
 
 "I am learning Devops" """
 
