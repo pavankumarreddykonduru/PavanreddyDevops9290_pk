@@ -1,3 +1,2 @@
-python
-animals=["dog", "cat", "elephant"]
+animals = ["dog", "cat", "elephant"]
 print(max(animals))
