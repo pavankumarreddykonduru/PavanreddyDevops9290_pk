@@ -19,7 +19,7 @@ locals {
   # We also lock in your requested AMI and instance type so no one can change them.
   server_name   = "sre-frontend-${var.environment}"
   target_ami    = "ami-0220d79f3f480ecf5"
-  instance_size = "t2.micro"
+  instance_size = "t3.micro"
 }
 
 # ------------------------------------------------------
