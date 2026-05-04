@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     # Replace this with your actual bucket name
-    bucket         = "my-unique-terraform-state-bucket-name"
+    bucket         = "my-unique-terraform-state-bucket-name862365"
     
     # The path and filename within the bucket where the state will reside
     key            = "global/s3/terraform.tfstate" 
@@ -10,7 +10,7 @@ terraform {
     region         = "us-east-1"
     
     # Replace this with your actual DynamoDB table name
-    dynamodb_table = "terraform-state-locks"
+    dynamodb_table = "use_lockfile"
     
     # Encrypt the state file at rest in S3
     encrypt        = true
