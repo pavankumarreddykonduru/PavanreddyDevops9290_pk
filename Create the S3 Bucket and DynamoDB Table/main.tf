@@ -44,3 +44,12 @@ resource "aws_dynamodb_table" "terraform_locks" {
     type = "S"    # S stands for String
   }
 }
+
+# ==============================================================================
+# LOCKING TEST RESOURCES
+# ==============================================================================
+
+# 5. A dummy resource to hold the lock open for testing
+resource "time_sleep" "wait_60_seconds" {
+  create_duration = "60s"
+}
