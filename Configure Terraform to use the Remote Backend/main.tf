@@ -10,7 +10,7 @@ terraform {
     region         = "us-east-1"
     
     # Replace this with your actual DynamoDB table name
-    dynamodb_table = "use_lockfile"
+    dynamodb_table = "terraform-state-locks"
     
     # Encrypt the state file at rest in S3
     encrypt        = true
